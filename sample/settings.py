@@ -78,12 +78,13 @@ WSGI_APPLICATION = 'sample.wsgi.application'
 
 DATABASES = {
     'default': {
+
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'polls',
         'USER': 'django',
         'PASSWORD': os.environ.get('DJANGO_DB_PASSWORD', None),
-        'HOST': 'private-django-db-do-user-9265292-0.b.db.ondigitalocean.com'
-        'PORT': 25060,
+        'HOST': 'private-django-db-do-user-9265292-0.b.db.ondigitalocean.com',
+        'PORT': 25060
     }
 }
 

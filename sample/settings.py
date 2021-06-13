@@ -82,9 +82,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'polls',
         'USER': 'django',
-        'PASSWORD': os.environ.get('DJANGO_DB_PASSWORD', None),
+        'PASSWORD': 'k2x8ujbiw68vltar'
         'HOST': 'private-django-db-do-user-9265292-0.b.db.ondigitalocean.com',
-        'PORT': 25060
+        'PORT': '25060'
     }
 }
 
